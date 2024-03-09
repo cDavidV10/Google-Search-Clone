@@ -188,7 +188,7 @@ p {
 
 @media (width > 700px) {
   .search-container {
-    min-height: 70dvh;
+    height: 70dvh;
   }
 
   .footer {
@@ -201,7 +201,7 @@ p {
     gap: 1.25rem;
   }
   .search-container {
-    min-height: 75dvh;
+    height: 75dvh;
   }
 
   .search,
