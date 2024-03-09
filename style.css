@@ -83,7 +83,7 @@ p {
   align-items: center;
   padding: 0.25rem;
   margin: 0 auto;
-  min-height: 60dvh;
+  min-height: 95dvh;
 }
 .search {
   margin-top: 5vh;
@@ -129,7 +129,7 @@ p {
 }
 
 .btn {
-  width: 40%;
+  width: 50%;
   height: 36px;
   border: none;
   font-size: 0.9rem;
@@ -150,7 +150,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 30dvh;
+  height: 20dvh;
   background-color: #f2f2f2;
   color: #202124;
 }
@@ -183,6 +183,16 @@ p {
 
   &:hover {
     text-decoration: underline;
+  }
+}
+
+@media (width > 700px) {
+  .search-container {
+    min-height: 70dvh;
+  }
+
+  .footer {
+    height: 20dvh;
   }
 }
 
